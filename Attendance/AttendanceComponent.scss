@@ -1,0 +1,100 @@
+.attendancecomponent {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.attendancehead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 50px 28px 30px 13px;
+}
+
+.attenddatesel {
+    height: 40px;
+    width: 124px;
+    border-radius: 4px;
+    background-color: #F8F8F8;
+    margin-bottom: 2px;
+    color: #939598;
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+    line-height: 21px;
+    border: none;
+}
+
+.attendancetext {
+    color: #1a1c1a;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.timelog_table-head .tableHeader {
+    color: #939598;
+}
+
+.attendancesum {
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    padding: 4px;
+    width: 35%;
+    height: 391px;
+    padding: 24px;
+    margin: 12px;
+}
+
+.att_sum {
+    font-family: Poppins-Medium;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+.attendancecomponent .TeamRoaster {
+    width: 60%;
+}
+
+.attendance_table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar {
+    font-family: Poppins-Medium;
+    color: #939598;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.calendartext {
+    font-weight: 100;
+}
+
+td {
+    margin-left: 25px;
+}
+
+.Holiday {
+    color: rgb(255, 221, 0);
+}
+
+.Present {
+    color: rgb(8, 199, 8);
+}
+
+.Leave {
+    color: rgb(255, 166, 0);
+}
+
+.Absent {
+    color: rgb(255, 0, 0);
+}

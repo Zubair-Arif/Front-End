@@ -1,0 +1,87 @@
+.settingscomponent {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    .backbutton {
+        width: 40px;
+    }
+
+    .settingstext {
+        color: #1a1c1a;
+        font-family: Poppins-Medium;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0;
+    }
+
+    .settingshead {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 37px;
+    }
+
+    .settingstab {
+        margin-top: 37px;
+    }
+
+    .react-tabs__tab-list {
+        height: 42.5px;
+        display: flex;
+        gap: 5px;
+        color: #999999;
+        border-bottom: none;
+        font-family: var(--AvenirNext-DemiBold);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 25px;
+        background-color: var(--bg-theme-white);
+        margin: 0;
+        border-bottom: 1px solid #ebe6e6;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #1A1C1A;
+            font-family: Poppins-Regular;
+            font-size: 16px;
+            font-weight: 30px;
+            letter-spacing: 0;
+            line-height: 25px;
+            padding: 20px 30px 20px 30px;
+            cursor: pointer;
+            border-radius: 4px 4px 0 0;
+        }
+
+        li.react-tabs__tab--selected {
+            padding: 20px 30px 20px 30px;
+            color: #409B16;
+            font-family: Poppins-Medium;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: NaNpx;
+            border-radius: 4px 4px 0 0;
+            border-left: none;
+            border-top: none;
+            border-right: none;
+            border-bottom: 3px solid #409B16;
+            background-color: none;
+            position: inherit;
+
+            &:focus-visible {
+                outline: none;
+            }
+        }
+    }
+
+    .tabpanelBorder {
+        margin-top: 1px;
+        border-Top: 1px solid #ECECEC;
+    }
+
+    .react-tabs__tab-panel--selected {
+        width: 100%;
+    }
+}

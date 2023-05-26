@@ -1,0 +1,326 @@
+.generaltab {
+    .generaltabheader {
+        height: 177px;
+        width: 100%;
+        border-radius: 4px;
+        position: relative;
+    }
+
+    .generaltabprofileimg {
+        position: absolute;
+        top: 110px;
+        left: 30px;
+    }
+
+    .myaccount {
+        font-family: 'Poppins-Regular';
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .generaltabaccount {
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .profileimg {
+        width: 200px;
+        width: 125px;
+        border-radius: 62px;
+        border: 2px solid white;
+    }
+
+    .generaltabprofilecontent {
+        background-color: #F6F6F6;
+        padding-bottom: 10px;
+
+        .generaltabprofiledetails {
+            padding-left: 30px;
+            padding-top: 85px;
+
+            .generaltabprofilename {
+                color: #1A1C1A;
+                font-family: 'Poppins-Medium';
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: 0;
+                line-height: 30px;
+            }
+
+            .generaltabsubprofiledetails {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+
+                .generaltabprofileemail {
+                    .profileemail {
+                        height: 17px;
+                        width: 142px;
+                        color: #007AFF;
+                        font-family: 'Poppins-Medium';
+                        font-size: 12px;
+                        letter-spacing: 0;
+                        line-height: 18px;
+                    }
+                }
+
+                .generaltabprofileseparator {
+
+                    margin-top: 5px;
+                    height: 11px;
+                    width: 2px;
+                    border-radius: 1px;
+                    background-color: #EDEDED;
+
+
+                }
+
+                .generaltabprofilerole {
+                    .profilerole {
+                        height: 17px;
+                        width: 107px;
+                        color: #1A1A1A;
+                        font-family: 'Poppins-Medium';
+                        font-size: 12px;
+                        letter-spacing: 0;
+                        line-height: 18px;
+                    }
+                }
+
+                .generaltabprofilestatus {
+                    display: flex;
+                    font-family: 'Poppins-Medium';
+                    gap: 10px;
+
+                    .profiledot {
+                        height: 4px;
+                        width: 4px;
+                        margin-top: 6px;
+                        border-radius: 10px;
+                        background-color: #8C8C8C;
+
+                    }
+
+
+                    .profilerole {
+                        height: 12px;
+                        width: 53px;
+                        font-size: 11px;
+                        color: #8C8C8C;
+                        letter-spacing: 0;
+                        line-height: 18px;
+
+                    }
+                }
+            }
+        }
+
+
+
+        .generaltabtechskills {
+            background-color: white;
+            margin: 26px;
+            border-radius: 4px;
+            padding: 25px;
+
+            .generaltabtechskillsheader {
+                display: flex;
+                justify-content: space-between;
+
+                .generaltabtechskillsheadtext {
+                    color: #1A1A1A;
+                    font-family: 'Poppins-Medium';
+                    font-size: 14px;
+                    letter-spacing: 0;
+                    line-height: 21px;
+
+                    .skillscount {
+                        background-color: #e0dfde;
+                        margin-left: 9px;
+                        padding: 4px;
+                        border-radius: 13px;
+                        padding-left: 5px;
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                    }
+                }
+            }
+
+            .generaltabtechskillscontent {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                .skills {
+                    border: 1px solid #EDEDED;
+                    border-radius: 4px;
+                    background-color: #F6F6F6;
+                    color: #1A1A1A;
+                    font-family: 'Poppins-Medium';
+                    font-size: 16px;
+                    letter-spacing: 0;
+                    padding: 4px 12px;
+                }
+
+            }
+        }
+
+        .generaltabprofileinfo {
+            background-color: white;
+            margin: 26px;
+            border-radius: 4px;
+            padding: 25px;
+
+            .generaltabprofileheader {
+                display: flex;
+                justify-content: space-between;
+
+
+                .generaltabprofileheadtext {
+                    color: #1A1A1A;
+                    font-family: 'Poppins-Medium';
+                    font-size: 14px;
+                    letter-spacing: 0;
+                    line-height: 21px;
+                }
+
+
+            }
+
+            .generaltabprofileinfoinput-top {
+                display: flex;
+                gap: 24px;
+                margin-bottom: 24px;
+
+                .detailsheader {
+                    color: #1A1C1A;
+                    font-family: 'Poppins-Medium';
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 18px;
+                    height: 24px;
+                }
+
+                .detailstextinfo {
+                    font-family: Poppins-Regular;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    border: 1px solid #dddddd;
+                    border-radius: 4px;
+                }
+
+                .detailstextinfo-editable {
+                    font-family: Poppins-Regular;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    border: none;
+                    color: #8C8C8C;
+                    background-color: #F6F6F6;
+                    border-radius: 4px;
+                }
+
+            }
+
+            .generaltabprofileinfoinput-bottom {
+                display: flex;
+                gap: 24px;
+                margin-bottom: 24px;
+
+                .detailsheader {
+                    color: #1A1C1A;
+                    font-family: 'Poppins-Medium';
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 18px;
+                    height: 24px;
+                }
+
+                .detailstextinfo {
+                    font-family: Poppins-Regular;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    border: 1px solid #dddddd;
+                    border-radius: 4px;
+                }
+
+                .detailstextinfo-editable {
+                    font-family: Poppins-Regular;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    border: none;
+                    color: #8C8C8C;
+                    background-color: #F6F6F6;
+                    border-radius: 4px;
+                }
+
+
+                .roletype,
+                .emptype {
+                    font-family: Poppins-Regular;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    border: 1px solid #dddddd;
+                    border-radius: 4px;
+                }
+
+                .roletype-editable,
+                .emptype-editable {
+                    font-family: Poppins-Regular;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    border: none;
+                    background-color: #F6F6F6;
+                    color: #8C8C8C;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+
+    }
+
+
+}
+
+.editprofiletext {
+    color: #8C8C8C;
+    font-family: 'Poppins-Medium';
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.removeprofiletext {
+    color: #FF5636;
+    font-family: 'Poppins-Medium';
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.dividerprofile {
+    margin-bottom: 5px;
+    height: 0.98px;
+
+    border-radius: 1px;
+    background-color: #EDEDED;
+    margin-left: 5px;
+    margin-right: 5px;
+}

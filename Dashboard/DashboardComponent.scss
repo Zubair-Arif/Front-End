@@ -1,0 +1,425 @@
+.dashboardcomponent {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    .dashboardbutton {
+        display: flex;
+        gap: 30px;
+
+        .datesel {
+            box-sizing: border-box;
+            height: 46px;
+            width: 133px;
+            border: 1px solid #E8E8E8;
+            border-radius: 4px;
+            color: #1A1A1A;
+            font-family: 'Poppins-Medium';
+            font-size: 16px;
+            padding-left: 10px;
+            line-height: 25px;
+        }
+
+
+        .left-btn {
+            padding: 10px;
+            text-align: center;
+            width: 101px;
+            border-radius: 4px;
+            background-color: #3cbe00;
+
+
+            .btn-text {
+                color: #FFFFFF;
+                font-family: 'Poppins-Medium';
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0;
+                line-height: 25px;
+            }
+        }
+
+    }
+
+    .dashboard-Content-Container {
+        display: flex;
+        width: 100%;
+
+        .dashboard-Left-Container {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+
+            .Allocate {
+                color: rgb(8, 199, 8);
+            }
+
+            .table {
+                border: 1px solid #ededed;
+                width: 713px;
+
+                .project_icons {
+                    .pro-img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+
+        .dashboard-Right-Container {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+
+            .revenue-Board-Container {
+                width: 100%;
+                background-color: #F6F6F6;
+                height: 840px;
+                padding: 35px;
+                border-radius: 4px;
+
+                .revenue-Header-Container {
+                    color: #1A1C1A;
+                    font-family: 'Poppins-Medium';
+                    font-size: 18px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 27px;
+                }
+
+                .revenue-Content-Container {
+                    .top-revenues-Container {
+                        height: 230px;
+                        width: 100%;
+                        border-radius: 4px;
+                        background-color: #FFFFFF;
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        position: relative;
+                        padding: 12px 8px;
+
+                        .top-Brand-Container {
+                            position: inherit;
+                            top: -25px;
+                        }
+
+                        .revenue-Brand-Container {
+
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            row-gap: 12px;
+                            padding: 30px;
+
+                            .shapes_img {
+                                background-image: url(../../../public/assets/images/ic_dashboard_shape.png);
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                row-gap: 12px;
+                            }
+
+
+                            .rank-Container {
+                                color: #1A1A1A;
+                                font-family: 'Poppins-Medium';
+                                font-size: 18px;
+                                font-weight: 500;
+                                letter-spacing: 0;
+                                line-height: 27px;
+                            }
+
+                            .pro-img {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            .crown-brandimg {
+                                width: 60px;
+                                height: 60px;
+                            }
+
+
+                            .revenue-BrandName-Container {
+                                color: #1A1A1A;
+                                font-family: 'Poppins-Medium';
+                                font-size: 16px;
+                                font-weight: 500;
+                                letter-spacing: 0;
+                                line-height: 27px;
+                                text-align: center;
+                            }
+
+                            #crown-brandname {
+                                width: 106px;
+
+                            }
+
+                            .revenue-Amount-Container {
+                                color: #656565;
+                                font-family: 'Poppins-Medium';
+                                font-size: 14px;
+                                letter-spacing: 0;
+                                line-height: 21px;
+                                text-align: center;
+                            }
+                        }
+
+                    }
+                }
+
+                .revenues-list-Container {
+                    .revenue-Brand-Container {
+                        display: grid;
+                        width: 100%;
+                        grid-template-columns: 8% 12% 50% 30%;
+                        column-gap: 0px;
+                        align-items: center;
+                        height: 72px;
+
+                        .rank-Container {
+                            color: #8C8C8C;
+                            font-family: 'Poppins-Medium';
+                            font-size: 10px;
+                            letter-spacing: 0;
+                            line-height: 16px;
+                        }
+
+                        .icon-Container {
+                            .pro-img {
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+
+                        .revenue-BrandName-Container {
+                            color: #1A1A1A;
+                            font-family: 'Poppins-Medium';
+                            font-size: 14px;
+                            letter-spacing: 0;
+                            line-height: 21px;
+
+
+                        }
+
+
+
+                        .revenue-Amount-Container {
+                            justify-self: self-end;
+                            color: #8C8C8C;
+                            font-family: 'Poppins-Medium';
+                            font-size: 14px;
+                            letter-spacing: 0;
+                            line-height: 21px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+.dashboardtext {
+    color: #1a1c1a;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.dashboardhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.card_component {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+
+.card_layout {
+    border: 1px solid rgba(106, 101, 101, 0.378);
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 221px;
+    max-height: 130px;
+    background-color: rgba(246, 246, 246, 0.7);
+    cursor: pointer;
+}
+
+.card_head {
+    display: flex;
+    gap: 4px;
+}
+
+.card_element {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.card_text {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    font-weight: 580;
+}
+
+.card_value {
+    font-family: Poppins-Medium;
+}
+
+.resource_allocation_head {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.resource_allocation_text {
+    color: #1a1c1a;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+
+
+.table-head {
+    height: 48px;
+}
+
+.tableHeader {
+    color: #1A1C1A;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    align-items: center;
+}
+
+thead {
+    background-color: #FBFBFB;
+}
+
+td {
+    height: 62px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: Poppins-Regular;
+    font-weight: 300;
+    border-top: 1px solid #EFEFEF;
+    white-space: nowrap;
+}
+
+.project_icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.startenddate {
+    display: flex;
+    height: 15px;
+    width: 100%;
+}
+
+.startDatealign {
+    color: #8C8C8C;
+    font-family: Poppins-Regular;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.key_risks_head {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.key_risks_text {
+    color: #1a1c1a;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+
+
+.resource_allocation {
+    width: 100%;
+}
+
+.key_risks {
+    width: 100%;
+}
+
+.billableinfo {
+    background-color: #F6F6F6;
+    padding: 20px;
+    margin-top: 41px;
+
+
+
+    .billableinfotext {
+        height: 25px;
+        width: 235px;
+        color: #1A1C1A;
+        font-family: Poppins-Medium;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 27px;
+    }
+
+
+    .billableinfocontent {
+        margin-top: 20px;
+        background-color: white;
+        padding: 20px;
+
+        .billableinfocontentroles {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+
+            .billableinforolestext {
+                height: 40px;
+                width: 135px;
+                color: #8C8C8C;
+                font-family: Poppins-Medium;
+                font-size: 14px;
+                letter-spacing: 0;
+                line-height: 21px;
+            }
+
+            .billableinforolesvalue {
+                height: 17px;
+                width: 12px;
+                color: #1A1C1A;
+                font-family: Poppins-Medium;
+                font-size: 12px;
+                font-weight: 500;
+                letter-spacing: 0;
+                line-height: 18px;
+                text-align: right;
+            }
+        }
+    }
+}

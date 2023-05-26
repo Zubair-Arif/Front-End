@@ -1,0 +1,106 @@
+.rolestabcomponent {
+    margin-top: 20px;
+
+    .rolestaboverview {
+        background-color: #F6F6F6;
+        border-radius: 4px;
+    }
+
+    .rolestabhead {
+        font-family: Poppins-Regular;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .rolescount {
+        background-color: #e0dfde;
+        margin-left: 9px;
+        padding: 4px;
+        border-radius: 13px;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .rolestabtable {
+        background-color: white;
+        padding: 21px;
+        margin-left: 21px;
+        margin-right: 28px;
+        border-radius: 4px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .rolestabtable-closed {
+        height: 0px !important;
+        padding: 0px !important;
+    }
+
+    .rolestabtableheader {
+        display: flex;
+        height: 43px;
+    }
+
+    .rolestabtableheadertext {
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        gap: 357px;
+    }
+
+    .settingtabletext {
+        font-family: Poppins-Regular;
+        display: flex;
+        gap: 114px;
+    }
+
+    .settingtablecontent {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    input[type=text] {
+        font-family: Poppins-Regular;
+        font-size: 14px;
+        width: 298px;
+        height: 40px;
+        padding-left: 10px;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+    }
+
+
+    .addroleselement {
+        margin-left: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 32px;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        padding: 6px 0px 1px 4px;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        cursor: pointer;
+        font-family: Poppins-Regular;
+        color: #5BBC2E;
+        font-size: 13px;
+    }
+}
+
+#popover-info-popover {
+    max-width: 230px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 16px 2px rgba(0, 0, 0, 0.06);
+
+    .popover-body {
+        padding: 10px;
+    }
+}

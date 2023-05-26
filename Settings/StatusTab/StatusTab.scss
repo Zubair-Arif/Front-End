@@ -1,0 +1,187 @@
+.statustabcomponent {
+    margin-top: 20px;
+
+    .statustaboverview {
+        background-color: #F6F6F6;
+        border-radius: 4px;
+    }
+
+    .statustabhead {
+        font-family: Poppins-Regular;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .statuscount {
+        background-color: #e0dfde;
+        margin-left: 9px;
+        padding: 4px;
+        border-radius: 13px;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .statustabtable {
+        background-color: white;
+        padding: 21px;
+        margin-left: 21px;
+        margin-right: 28px;
+        border-radius: 4px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .statustabtable-closed {
+        height: 0px !important;
+        padding: 0px !important;
+    }
+
+    .statustabtableheader {
+        display: flex;
+        height: 43px;
+    }
+
+    .statustabtableheadertext {
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        gap: 252px;
+
+    }
+
+    .settingtabletext {
+        font-family: Poppins-Regular;
+        display: flex;
+        gap: 114px;
+    }
+
+    .settingtablecontent {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    input[type=text] {
+        font-family: Poppins-Regular;
+        font-size: 14px;
+        width: 298px;
+        height: 40px;
+        padding-left: 10px;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+    }
+
+
+    .addstatuselement {
+        margin-left: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 32px;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        padding: 6px 0px 1px 4px;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        cursor: pointer;
+        font-family: Poppins-Regular;
+        color: #5BBC2E;
+        font-size: 13px;
+    }
+}
+
+#popover-info-popover {
+    max-width: 230px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 16px 2px rgba(0, 0, 0, 0.06);
+
+    .popover-body {
+        padding: 10px;
+    }
+}
+
+.projectstatuscomponent {
+    background-color: rgb(161, 158, 158);
+}
+
+.projectstatushead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectstatuscontent {
+    margin: 10px;
+}
+
+.tablebody {
+    background-color: white;
+}
+
+.statustaboverview {
+    margin-bottom: 20px;
+}
+
+.addstatus {
+
+    padding: 10px;
+    box-sizing: border-box;
+    height: 32px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 6px 0px 1px 4px;
+    margin-bottom: 2%;
+    cursor: pointer;
+    font-family: Poppins-Regular;
+    color: #5BBC2E;
+    font-size: 13px;
+}
+
+.statustype {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    width: 298px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.colortype {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    height: 40px;
+    width: 160px;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.statustabletext {
+    font-family: Poppins-Regular;
+    display: flex;
+    gap: 29px;
+}
+
+.statustabtableheadertext {
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    gap: 253px;
+}
+
+.right-content {
+    display: flex;
+    gap: 167px;
+}
+
+.green {
+    background-color: green;
+}
